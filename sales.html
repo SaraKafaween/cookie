@@ -22,18 +22,18 @@
             </legend>
             <form id="placeform">
                 <label for="newplace">Add new place name</label>
-                <input type="text" id="newplace">
+                <input type="text" id="newplace" required>
 
                 <label for="max">what is the max nunber of customers </label>
-                <input type="number" id="max">
+                <input type="number" step=".01" id="max" required>
 
                 <label for="min">what is the min nunber of customers</label>
-                <input type="number" id="min">
+                <input type="number" step=".01" id="min" required>
 
                 <label for="avg">what is the avg nunber of cookies Per hour</label>
-                <input type="number" id="avg">
+                <input type="number" step=".01" id="avg" required>
 
-                <input type="submit" value="Add place">
+                <input type="submit" value="Add place" required>
 
             </form>
         </fieldset>
