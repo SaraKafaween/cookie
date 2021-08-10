@@ -2,8 +2,8 @@
 table,th,td, tr{
     border: 1px solid purple;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-width: 120px;
-height: 120pxs;
+/* width: 120px;
+height: 120pxs; */
 }
 
 table {
@@ -23,10 +23,10 @@ color: purple
 
 }
 
-label:nth-child(3){
+/* label:nth-child(3){
 float: right;
 padding-left: 150PX;
-}
+} */
 
 nav:nth-child(1)  {
     width: 250px;
