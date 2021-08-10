@@ -1,7 +1,31 @@
 
 table,th,td, tr{
     border: 1px solid purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+width: 120px;
+height: 120pxs;
+}
 
+table {
+border: rosybrown;
+border-width: 50px;
+}
+legend{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 30px;
+padding-top: 20px;
+
+}
+form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: purple
+;
+
+}
+
+label:nth-child(3){
+float: right;
+padding-left: 150PX;
 }
 
 nav:nth-child(1)  {
@@ -33,4 +57,7 @@ main ul{
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+}
+html{
+    background-color: rgb(187, 175, 175);
 }
